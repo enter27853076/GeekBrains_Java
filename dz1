@@ -1,0 +1,59 @@
+package Lesson1.online
+
+//1 задание
+
+public class Java_DZ_1 {
+
+    public static void main(String[] args) {
+        
+        int a = 1;
+        int b = 2;
+        int c = 3;
+        int d = 4;
+        float dz = (a * (b + (c / d)));
+        System.out.println(dz);
+
+
+        }
+
+    }
+    
+    
+    //2 задание (если здесь была нужна булева логика, то я пока в нее не доконца въехал =) )
+    
+    public static void main(String[] args) {
+    int a = 2;
+    int b = 4;
+    int c=a+b;
+
+    if (c < 10) {
+        System.out.println("False");
+    } else if (c > 20) {
+        System.out.println("False");
+    } else {
+        System.out.println("True");
+    }
+    }
+}
+
+//3 задание
+
+public static void main(String[] args) {
+    int a = -100;
+    if (a >= 0) {
+        System.out.println("Положительное");
+    }
+    if (a < 0) {
+        System.out.println("Отрицательное");
+    }
+    }
+}
+
+//4 задание
+
+public static void main(String[] args){
+        String myName = ("Саша");
+        System.out.print("Привет,");
+        System.out.print(myName);}
+}
+
