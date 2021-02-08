@@ -1,0 +1,73 @@
+package Lesson2.online;
+
+import javafx.scene.control.TextFormatter;
+
+import java.util.Arrays;
+
+public class dz2 {
+    public static void main(String[] args) {
+        System.out.println("-----1 задание--------");
+
+        int[] myMassive = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
+        System.out.println(Arrays.toString(myMassive));
+        //я так и не понял
+
+
+
+
+        System.out.println("-----2 задание--------");
+
+
+        int[] secondMassive = new int[8];
+        int i;
+        for (i = 0; i < 8; i++){
+            secondMassive[0] = 1;
+            secondMassive[1] = 4;
+            secondMassive[2] = 7;
+            secondMassive[3] = 10;
+            secondMassive[4] = 13;
+            secondMassive[5] = 16;
+            secondMassive[6] = 19;
+            secondMassive[7] = 22;
+        }
+        System.out.println(Arrays.toString(secondMassive));
+
+        System.out.println("-----3 задание--------");
+
+
+        int[] thirdMassive = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
+        for (i = 0; i < 12;i++){
+
+        }
+        System.out.println(Arrays.toString(thirdMassive));
+        // не получилось
+
+
+        System.out.println("-----4 задание--------");
+
+
+        int[] newMassive = {5, 5, 6, 1, 14, 7, 9, 8, 9, 5, 44, 11};
+
+       // мы это вообще проходили? Оо
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
