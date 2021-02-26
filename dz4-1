@@ -1,0 +1,14 @@
+package Lesson4.online;
+
+public class Firm {
+    public static void main(String[] args) {
+
+
+
+        Worker e = new Worker("Ivanov","Ivan", "Ivanovich","tester",
+                "88005553535","100500","100");
+
+        System.out.println(e.getSurname() +" "+ e.getName() +" "+ e.getSecondname());
+    }
+
+}
