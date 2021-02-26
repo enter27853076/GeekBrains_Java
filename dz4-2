@@ -1,0 +1,43 @@
+package Lesson4.online;
+
+public class Worker {
+    String surname;
+    private String name;
+    private String secondName;
+    private String position;
+    private String phoneNumber;
+    private String zp;
+    private String age;
+
+
+    Worker(
+        String surname,
+        String name,
+        String secondName,
+        String position,
+        String phoneNumber,
+        String zp,
+        String age) {
+
+        this.name = name;
+        this.surname = surname;
+        this.secondName = secondName;
+        this.position = position;
+        this.phoneNumber = phoneNumber;
+        this.zp = zp;
+        this.age = age;
+
+
+    }
+
+
+    String getSurname(){
+        return surname;
+    }
+    String getName(){
+        return name;
+    }
+    String getSecondname(){
+        return secondName;
+    }
+}
